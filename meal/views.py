@@ -4,7 +4,7 @@ import json
 def keyboard(request):
     return JsonResponse(
         {
-            'type': 'message',
+            'type': 'text',
             'text': '나의 세계에 온걸 환영해!!\n 채팅창에 "소개"라고 적는다면 나에대해서 더 많은걸 알수있어.'
         }
     )
