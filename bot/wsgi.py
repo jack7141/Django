@@ -9,9 +9,9 @@ https://docs.djangoproject.com/en/2.0/howto/deployment/wsgi/
 
 import os, sys
 
-sys.path.append('/home/ubuntu/KakaoChat')
-sys.path.append('/home/ubuntu/KakaoChat/bot')
-sys.path.append('/home/ubuntu/KakaoChat/myvenv/lib/python3.5/site-packages')
+sys.path.append('/home/ubuntu/Django')
+sys.path.append('/home/ubuntu/Django/bot')
+sys.path.append('/home/ubuntu/Django/myvenv/lib/python3.5/site-packages')
 
 from django.core.wsgi import get_wsgi_application
 
